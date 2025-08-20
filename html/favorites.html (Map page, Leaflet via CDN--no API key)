@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Favorites Map • Vacay to Costa Rica</title>
+  <link href="/css/theme.css" rel="stylesheet" />
+  <link href="/css/globals.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script defer src="/js/main.js"></script>
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="/js/components/map-favorites.js"></script>
+  <script defer src="/js/pages/favorites.js"></script>
+</head>
+<body data-page="favorites">
+  <div data-include="/html/partials/header.html"></div>
+
+  <main class="section">
+    <div class="container">
+      <h1>Our Favorites</h1>
+      <div class="filter-chips" id="fav-filters"></div>
+      <div id="map" class="map"></div>
+      <div id="fav-list" class="cards" style="margin-top:16px;"></div>
+    </div>
+  </main>
+
+  <div data-include="/html/partials/footer.html"></div>
+</body>
+</html>
