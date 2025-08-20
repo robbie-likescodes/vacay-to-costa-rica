@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vacay to Costa Rica • Home</title>
+  <link href="/css/theme.css" rel="stylesheet" />
+  <link href="/css/globals.css" rel="stylesheet" />
+  <script defer src="/js/main.js"></script>
+  <script defer src="/js/pages/home.js"></script>
+</head>
+<body data-page="home">
+  <div data-include="/html/partials/header.html"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Family‑Hosted Stays in Costa Rica</h1>
+        <p class="lead">Ocean views, local tips, and warm hospitality from Bob & Lori.</p>
+        <div class="actions">
+          <a href="/html/favorites.html" class="btn btn-primary">See Our Favorites</a>
+          <a href="/html/about.html" class="btn btn-ghost">Meet Bob & Lori</a>
+        </div>
+      </div>
+      <figure class="hero-media">
+        <img src="/html/hero.jpg" alt="Sunset over Costa Rica coast" />
+      </figure>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Browse Our Homes</h2>
+        <div id="listing-cards" class="cards"></div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container grid-2">
+        <div>
+          <h2>Why book direct with our family?</h2>
+          <ul class="checklist">
+            <li>No platform fees & flexible check‑in</li>
+            <li>Local tips for food, beaches, and activities</li>
+            <li>Responsive hosts who care</li>
+          </ul>
+        </div>
+        <figure class="card media-card">
+          <img src="/html/family.jpg" alt="Bob & Lori with family" />
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="/html/partials/footer.html"></div>
+</body>
+</html>
