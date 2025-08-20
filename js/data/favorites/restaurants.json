@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Soda Típica La Playa",
+    "lat": 9.6041,
+    "lng": -84.6289,
+    "category": "restaurants",
+    "price": "$",
+    "photo": "/html/fav-soda.jpg",
+    "tip": "Order the casado with fish; fresh juices!",
+    "nearby": ["villa-sol","pacifico"]
+  },
+  {
+    "name": "El Mirador Sunset Bar",
+    "lat": 9.5985,
+    "lng": -84.6333,
+    "category": "restaurants",
+    "price": "$$",
+    "photo": "/html/fav-mirador.jpg",
+    "tip": "Best sunsets—arrive 30 minutes early.",
+    "nearby": ["villa-sol"]
+  }
+]
