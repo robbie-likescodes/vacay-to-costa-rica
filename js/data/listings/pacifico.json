@@ -1,0 +1,27 @@
+{
+  "title": "Pacifico Condo",
+  "slug": "pacifico",
+  "location": "Playas del Coco, Guanacaste",
+  "summary": "Modern condo in a secure community near shops and beach.",
+  "capacity": { "guests": 4, "bedrooms": 2, "beds": 3, "baths": 2 },
+  "badges": ["Gated Community","Walk to Shops","Pool"],
+  "gallery": ["/html/pacifico-1.jpg","/html/pacifico-2.jpg","/html/pacifico-3.jpg"],
+  "amenities": {
+    "Sleep": ["Premium linens"],
+    "Cook": ["Full kitchen","Dishwasher"],
+    "Work": ["Wi‑Fi"],
+    "Family": ["Washer/Dryer"],
+    "Outdoors": ["Pool","Balcony"]
+  },
+  "description": {
+    "overview": "Comfortable condo perfect for families or remote work…",
+    "theSpace": "Two bedrooms with AC, open kitchen/living…",
+    "guestAccess": "Entire unit, pools, parking…",
+    "neighborhood": "Close to restaurants, grocery, and the beach…",
+    "notes": "Quiet hours 10pm–7am."
+  },
+  "contact": {
+    "whatsapp": "15551234567",
+    "email": "hello@vacaytocostarica.com"
+  }
+}
