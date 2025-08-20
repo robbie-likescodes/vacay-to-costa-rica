@@ -1,0 +1,12 @@
+:root{
+  --bg:#0b0b10;
+  --surface:#12121a;
+  --muted:#8b90a3;
+  --text:#e8eaf1;
+  --brand:#2F6F5E;     /* jungle green */
+  --brand-2:#1EA7A6;   /* ocean teal */
+  --accent:#FF7A59;    /* sunset coral */
+  --sand:#EFE9DA;      /* sand */
+  --radius:16px;
+  --shadow:0 10px 30px rgba(0,0,0,.25);
+}
