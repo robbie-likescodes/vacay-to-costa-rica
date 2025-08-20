@@ -1,0 +1,28 @@
+{
+  "title": "Villa Sol",
+  "slug": "villa-sol",
+  "location": "Playas del Coco, Guanacaste",
+  "summary": "Ocean-view villa with resort amenities and fast Wi‑Fi.",
+  "capacity": { "guests": 6, "bedrooms": 3, "beds": 4, "baths": 2 },
+  "badges": ["Ocean View", "Pool Access", "Family Friendly"],
+  "gallery": ["/html/villa-sol-1.jpg","/html/villa-sol-2.jpg","/html/villa-sol-3.jpg"],
+  "wifi": "200 Mbps",
+  "amenities": {
+    "Sleep": ["Blackout curtains","Memory-foam mattresses"],
+    "Cook": ["Full kitchen","Coffee maker"],
+    "Work": ["Fast Wi‑Fi","Desk"],
+    "Family": ["Pack ’n Play","High chair"],
+    "Outdoors": ["Resort pool","Balcony","Grill"]
+  },
+  "description": {
+    "overview": "Perched above the coast with sweeping views…",
+    "theSpace": "Open-plan living with lots of light…",
+    "guestAccess": "Entire home plus resort pool access…",
+    "neighborhood": "Minutes to beaches, markets, and cafés…",
+    "notes": "4x4 recommended in rainy season."
+  },
+  "contact": {
+    "whatsapp": "15551234567",
+    "email": "hello@vacaytocostarica.com"
+  }
+}
