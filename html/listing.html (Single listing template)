@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Listing • Vacay to Costa Rica</title>
+  <link href="/css/theme.css" rel="stylesheet" />
+  <link href="/css/globals.css" rel="stylesheet" />
+  <script defer src="/js/main.js"></script>
+  <script defer src="/js/components/gallery.js"></script>
+  <script defer src="/js/components/accordion.js"></script>
+  <script defer src="/js/pages/listing.js"></script>
+</head>
+<body data-page="listing">
+  <div data-include="/html/partials/header.html"></div>
+
+  <main class="section">
+    <div class="container" id="listing-root">
+      <!-- JS renders listing content here based on ?slug=villa-sol -->
+    </div>
+  </main>
+
+  <div data-include="/html/partials/booking-cta.html"></div>
+  <div data-include="/html/partials/footer.html"></div>
+</body>
+</html>
