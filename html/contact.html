@@ -1,1 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact • Vacay to Costa Rica</title>
+  <link href="/css/theme.css" rel="stylesheet" />
+  <link href="/css/globals.css" rel="stylesheet" />
+  <script defer src="/js/main.js"></script>
+  <script defer src="/js/pages/contact.js"></script>
+</head>
+<body data-page="contact">
+  <div data-include="/html/partials/header.html"></div>
+
+  <main class="section">
+    <div class="container grid-2">
+      <div>
+        <h1>Contact Us</h1>
+        <p>We typically reply within a few hours.</p>
+        <ul class="contact-list">
+          <li>📞 <a href="tel:+1-000-000-0000">+1 (000) 000‑0000</a></li>
+          <li>✉️ <a href="mailto:hello@vacaytocostarica.com">hello@vacaytocostarica.com</a></li>
+          <li>💬 <a target="_blank" rel="noopener" href="https://wa.me/15551234567">WhatsApp Chat</a></li>
+        </ul>
+      </div>
+      <form class="card form" id="contact-form">
+        <label><span>Your name</span><input name="name" required/></label>
+        <label><span>Email</span><input type="email" name="email" required/></label>
+        <label><span>Message</span><textarea name="message" rows="6" required></textarea></label>
+        <button class="btn btn-primary" type="submit">Send</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </main>
+
+  <div data-include="/html/partials/footer.html"></div>
+</body>
+</html>
 
